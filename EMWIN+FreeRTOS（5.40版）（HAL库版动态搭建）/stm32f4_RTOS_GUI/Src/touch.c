@@ -133,9 +133,9 @@ u8 TP_Read_XY2(u16 *x,u16 *y)
 	u16 x1,y1;
  	u16 x2,y2;
  	u8 flag;    
-    flag=TP_Read_XY(&x1,&y1);   
+    flag=TP_Read_XY(&y1,&x1);   
     if(flag==0)return(0);
-    flag=TP_Read_XY(&x2,&y2);	   
+    flag=TP_Read_XY(&y2,&x2);	   
     if(flag==0)return(0);   
     if(((x2<=x1&&x1<x2+ERR_RANGE)||(x1<=x2&&x2<x1+ERR_RANGE))//前后两次采样在+-50内
     &&((y2<=y1&&y1<y2+ERR_RANGE)||(y1<=y2&&y2<y1+ERR_RANGE)))

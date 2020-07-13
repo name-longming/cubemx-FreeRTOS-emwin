@@ -49,9 +49,8 @@ void LCD_X_Config(void) {
 //		LCD_SetVSizeEx   (0, lcd_width, lcd_height);
 
 	GUI_TOUCH_SetOrientation(GUI_SWAP_XY|GUI_MIRROR_Y); 
-  GUI_TOUCH_Calibrate(GUI_COORD_X,0,240,155,3903);
-//        GUI_TOUCH_Calibrate(GUI_COORD_Y,0,320,188,3935);
-  GUI_TOUCH_Calibrate(GUI_COORD_Y,0,320,3935,188);
+  GUI_TOUCH_Calibrate(GUI_COORD_X,0,320,3935,188);
+	GUI_TOUCH_Calibrate(GUI_COORD_Y,0,240,155,3903);
 }
 
 //显示器驱动的回调函数
