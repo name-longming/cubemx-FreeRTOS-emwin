@@ -1,6 +1,4 @@
-[![](https://img.shields.io/github/stars/name-longming/cubemx-FreeRTOS-emwin.svg?style=social&label=Star)](https://github.com/name-longming/EmWin-SmallPhone)
-
-[![](https://img.shields.io/github/forks/name-longming/cubemx-FreeRTOS-emwin.svg?style=social&label=Fork)](https://github.com/name-longming/EmWin-SmallPhone)
+[![](https://img.shields.io/github/stars/name-longming/cubemx-FreeRTOS-emwin.svg?style=social&label=Star)](https://github.com/name-longming/EmWin-SmallPhone)[![](https://img.shields.io/github/forks/name-longming/cubemx-FreeRTOS-emwin.svg?style=social&label=Fork)](https://github.com/name-longming/EmWin-SmallPhone)
 
 # 在cubemx环境下移植了FreeRTOS+emwin（含触摸）
 
@@ -22,6 +20,6 @@ stm32F407+ILI93412.8寸电阻屏
 
 | 更新时间  |                       更新时间                       |
 | :-------: | :--------------------------------------------------: |
-|           |        修复emwin（5.40版本）触摸鼠标错位问题         |
+| 2020.7.13 |        修复emwin（5.40版本）触摸鼠标错位问题         |
 | 2020.7.4  | 增加了HAL版emwin（5.40版本）+FreeRTOS和库函数版emwin |
 | 2020.6.30 |       增加了HAL版emwin+FreeRTOS和库函数版emwin       |
